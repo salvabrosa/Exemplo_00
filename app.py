@@ -62,7 +62,7 @@ def index():
         code = obj.code
         name = obj.name
         dob = obj.dob
-        salary = obj.salary
+        salary = obj.salary 
 
     return render_template("index.html", butshow=butshow, butedit=butedit,\
                                code=code,name=name,dob=dob,salary=salary)
